@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Skeleton CSS Cheat Sheet</title>
+    <style>
+        .columns, .column{
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!--HEADING-->
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <!--FLOAT-->
+    <h2 class="u-pull-left">Left</h2>
+    <h2 class="u-pull-right">Right</h2>
+    <div class="u-cf"></div>
+
+    <!--BUTTONS-->
+    <button>Button</button>
+    <input type="submit" value="submit">
+    <input type="button" value="submit">
+    <a href="" class="button">Link</a>
+
+    <br>
+
+    <!--PRIMARY BUTTONS-->
+    <button class="button-primary">Button</button>
+    <input class="button-primary" type="submit" value="submit">
+    <input class="button-primary" type="button" value="submit">
+    <a href="" class="button button-primary">Link</a>
+
+    <br>
+    <!--FULL WIDTH-->
+    <button class="u-full-width button-primary">Full Width Button</button>
+
+    <!--LISTS-->
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+            <ul>
+                <li>Web Design</li>
+                <li>Programming</li>
+            </ul>
+        <li>Contact</li>
+    </ul>
+
+    <!--CODE BLOCK-->
+    <pre>
+        <code>
+            body{
+                color: #fff;
+                background: #000;
+            }
+        </code>
+    </pre>
+
+    <!--TABLES-->
+    <table class="u-full-width">
+        <thread>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>johndoe@gmail.com</td>
+                <td>Boston</td>
+            </tr>
+            <tr>
+                <td>Jane Doe</td>
+                <td>janedoe@gmail.com</td>
+                <td>Nashville</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!--FORMS-->
+    <form>
+        <div>
+            <label>Name</label>
+            <input class="u-full-width" type="text" placeholder="Enter Name">
+        </div>
+        <div>
+            <label>Membership</label>
+            <select class="u-full-width">
+                <option value="1">Membership 1</option>
+                <option value="2">Membership 2</option>
+                <option value="3">Membership 3</option>
+            </select>
+        </div>
+        <div>
+            <label>Message</label>
+            <textarea class="u-full-width" placeholder="Enter Message"></textarea>
+        </div>
+        <div>
+            <label class="">
+                <input type="checkbox">
+                <span class="label-body">Subscribe to email</span>
+            </label>
+        </div>
+        <input class="button-primary" type="submit" value="submit">
+    </form>
+
+    <!--GRID-->
+    <div class="row">
+        <div class="eight columns">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sequi, accusantium sunt corrupti sed aliquid mollitia ea dolores suscipit quas officia eaque et ipsa perspiciatis, a aspernatur nesciunt quidem officiis, assumenda velit sit rerum. Ad tempore nihil quam, cupiditate a eveniet qui, obcaecati laborum facilis voluptate maxime, amet doloribus totam.
+        </div>
+        <div class="four columns">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sequi, accusantium sunt corrupti sed aliquid mollitia ea dolores suscipit quas officia eaque et ipsa perspiciatis, a aspernatur nesciunt quidem officiis, assumenda velit sit rerum.
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="six columns">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sequi, accusantium sunt corrupti sed aliquid mollitia ea dolores suscipit quas officia eaque et ipsa perspiciatis, a aspernatur nesciunt quidem officiis, assumenda velit sit rerum. Ad tempore nihil quam, cupiditate a eveniet qui, obcaecati laborum facilis voluptate maxime, amet doloribus totam.
+        </div>
+        <div class="six columns">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur sequi, accusantium sunt corrupti sed aliquid mollitia ea dolores suscipit quas officia eaque et ipsa perspiciatis, a aspernatur nesciunt quidem officiis, assumenda velit sit rerum. Ad tempore nihil quam, cupiditate a eveniet qui, obcaecati laborum facilis voluptate maxime, amet doloribus totam.
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-third column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore!
+        </div>
+        <div class="two-thirds column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore!
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-third column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore!
+        </div>
+        <div class="one-third column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore!
+        </div>
+        <div class="one-third column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, dolore!
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="one-half column">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam provident rerum maiores quasi cupiditate et repellat, ad quis unde molestiae ipsa, blanditiis excepturi quam consequatur eos nostrum ut delectus explicabo beatae. In natus nostrum non temporibus, omnis quod qui repellendus vero possimus reiciendis est, ipsam officiis quibusdam nesciunt accusamus dolor!
+        </div>
+    </div>
+
+    <div style="margin-top:500px"></div>
+</body>
+</html>
